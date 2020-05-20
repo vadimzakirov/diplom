@@ -18,7 +18,7 @@ class Capture(object):
             ret, frame = self.cap.read()
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             thres = cv2.threshold(gray, 5, 255, cv2.THRESH_BINARY)[1]
-            for x in range(200, 300):
+            for x in range(1, 480):
                 for y in range(1, 640):
                     if str(thres[x, y]) == "255":
                         f.write(str(x) + ",")
@@ -41,7 +41,7 @@ class Hist(object):
         self.coordinates = []
 
     def make_hist(self):
-        self.hist_file_path = f"hists/hist_{self.number}.png"
+        self.hist_file_path = f"hists/full_hist_{self.number}.png"
         with open(self.coordinates_file_path, "r") as f:
             str = f.read()
             str_coordinates = str.split(",")
@@ -49,7 +49,7 @@ class Hist(object):
             print(str_coordinates)
         for str_coordinate in str_coordinates:
             self.coordinates.append(int(str_coordinate))
-        plt.hist(self.coordinates, 10, facecolor='blue', alpha=0.5)
+        plt.hist(self.coordinates, 50, facecolor='blue', alpha=0.5)
         plt.savefig(self.hist_file_path, dpi=72)
         plt.cla()
         plt.clf()
@@ -58,11 +58,10 @@ class Hist(object):
 
 
 def execute():
-    for i in range(1,11):
-        cp = Capture(i)
-        file_path = cp.make_coordinates()
-        hs = Hist(coordinates_file_path=file_path, number=i)
-        hs.make_hist()
+    cp = Capture(1)
+    file_path = cp.make_coordinates()
+    hs = Hist(coordinates_file_path=file_path, number=1)
+    hs.make_hist()
 
 
 def make_light_tests():
@@ -80,4 +79,4 @@ def make_light_tests():
             str_to_test = "".join(binary_data)
             nt = fnt(i, str_to_test)
             nt.execute()
-make_light_tests()
+execute()
