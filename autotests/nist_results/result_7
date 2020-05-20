@@ -1,0 +1,45 @@
+The statistical test of the Binary Expansion of e 
+2.01. Frequency Test:								 (0.8557254153200716, True) 
+2.02. Block Frequency Test:							 (0.0005335409604553452, False) 
+2.03. Run Test:										 (3.2228746503816884e-179, False) 
+2.04. Run Test (Longest Run of Ones): 				 (1.1029473736336968e-40, False) 
+2.05. Binary Matrix Rank Test:						 (0.6937201409888837, True) 
+2.06. Discrete Fourier Transform (Spectral) Test:	 (8.600333702038385e-09, False) 
+2.07. Non-overlapping Template Matching Test:		  (7.566671110413507e-150, False) 
+2.08. Overlapping Template Matching Test: 			 (0.2957082753892122, True) 
+2.09. Universal Statistical Test:					 (-1.0, False) 
+2.10. Linear Complexity Test:						 (0.01565692103233151, True) 
+2.11. Serial Test:									 ((0.0, False), (0.0, False)) 
+2.12. Approximate Entropy Test:						  (5.98235438921839e-10, False) 
+2.13. Cumulative Sums (Forward):					 (0.7564622692988312, True) 
+2.13. Cumulative Sums (Backward):					 (0.5882050812284474, True) 
+2.14. Random Excursion Test: 
+		 STATE 			 xObs 				 P-Value 			 Conclusion 
+		 '-4' 		 23.404339101132106 		 0.00028247353457178245 		 False 
+		 '-3' 		 27.06967272727274 		 5.528771056413603e-05 		 False 
+		 '-2' 		 14.576879910213245 		 0.012331853118342688 		 True 
+		 '-1' 		 10.363636363636363 		 0.06556353493248557 		 True 
+		 '+1' 		 27.0 		 5.704245668268661e-05 		 False 
+		 '+2' 		 32.80246913580247 		 4.119042978318564e-06 		 False 
+		 '+3' 		 27.0304 		 5.627012864541467e-05 		 False 
+		 '+4' 		 24.774071409639927 		 0.0001540482728889787 		 False 
+2.15. Random Excursion Variant Test:						 
+		 STATE 		 COUNTS 			 P-Value 		 Conclusion 
+		 '-9.0' 		 38 		 0.8767217432348915 		 True 
+		 '-8.0' 		 38 		 0.8688301969253137 		 True 
+		 '-7.0' 		 39 		 0.8824784331739992 		 True 
+		 '-6.0' 		 42 		 0.9487453396406136 		 True 
+		 '-5.0' 		 46 		 0.9433445071736766 		 True 
+		 '-4.0' 		 46 		 0.9357741458363251 		 True 
+		 '-3.0' 		 48 		 0.8487665010168555 		 True 
+		 '-2.0' 		 49 		 0.758288758433211 		 True 
+		 '-1.0' 		 45 		 0.9151060344205056 		 True 
+		 '+1.0' 		 51 		 0.45554509378932995 		 True 
+		 '+2.0' 		 59 		 0.35591018837100963 		 True 
+		 '+3.0' 		 55 		 0.5999972800889766 		 True 
+		 '+4.0' 		 48 		 0.8719637673702084 		 True 
+		 '+5.0' 		 47 		 0.9151060344205056 		 True 
+		 '+6.0' 		 53 		 0.7723740364676985 		 True 
+		 '+7.0' 		 58 		 0.6789336650336024 		 True 
+		 '+8.0' 		 53 		 0.8043534959231337 		 True 
+		 '+9.0' 		 46 		 0.9587607499379828 		 True 

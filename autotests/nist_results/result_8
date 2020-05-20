@@ -1,0 +1,36 @@
+The statistical test of the Binary Expansion of e 
+2.01. Frequency Test:								 (0.05742804802689874, True) 
+2.02. Block Frequency Test:							 (0.5543887393806377, True) 
+2.03. Run Test:										 (9.806153257142989e-253, False) 
+2.04. Run Test (Longest Run of Ones): 				 (3.923254340268964e-49, False) 
+2.05. Binary Matrix Rank Test:						 (0.7419080374105169, True) 
+2.06. Discrete Fourier Transform (Spectral) Test:	 (4.979396919485263e-13, False) 
+2.07. Non-overlapping Template Matching Test:		  (6.173244189636616e-179, False) 
+2.08. Overlapping Template Matching Test: 			 (0.03190680451151778, True) 
+2.09. Universal Statistical Test:					 (-1.0, False) 
+2.10. Linear Complexity Test:						 (0.04984166489623007, True) 
+2.11. Serial Test:									 ((0.0, False), (0.0, False)) 
+2.12. Approximate Entropy Test:						  (2.7775212612477545e-46, False) 
+2.13. Cumulative Sums (Forward):					 (0.035093307006388574, True) 
+2.13. Cumulative Sums (Backward):					 (0.11485607210860314, True) 
+2.14. Random Excursion Test: 
+		 STATE 			 xObs 				 P-Value 			 Conclusion 
+		 '-4' 		 3.0730251284187142 		 0.6887284450698641 		 True 
+		 '-3' 		 2.7471999999999994 		 0.7388904810664016 		 True 
+		 '-2' 		 2.9917695473251027 		 0.7012548073954025 		 True 
+		 '-1' 		 5.0 		 0.4158801869955079 		 True 
+		 '+1' 		 3.0 		 0.6999858358786276 		 True 
+		 '+2' 		 1.0 		 0.9625657732472964 		 True 
+		 '+3' 		 0.6 		 0.9880032427940937 		 True 
+		 '+4' 		 0.4285714285714286 		 0.9945059778188691 		 True 
+2.15. Random Excursion Variant Test:						 
+		 STATE 		 COUNTS 			 P-Value 		 Conclusion 
+		 '-9.0' 		 7 		 0.6920614909359382 		 True 
+		 '-8.0' 		 6 		 0.7518296340458492 		 True 
+		 '-7.0' 		 8 		 0.5712996214994486 		 True 
+		 '-6.0' 		 13 		 0.21835469056590173 		 True 
+		 '-5.0' 		 13 		 0.17356816655592167 		 True 
+		 '-4.0' 		 10 		 0.28008721081149757 		 True 
+		 '-3.0' 		 9 		 0.27332167829229814 		 True 
+		 '-2.0' 		 6 		 0.4795001221869535 		 True 
+		 '-1.0' 		 4 		 0.6830913983096087 		 True 
